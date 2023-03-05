@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+    <head>
+
+        <meta charset="utf-8" \>
+        <meta name="viewport" content="width=device-width" \>
+        <link rel="icon" sizes="16x16 32x32 48x48" type="image/jpg" href="/res/mansuryavas.jpg">
+        <link rel="stylesheet" href="/src/main.css">
+        <title>Ankara Metro Mesafe Hesaplama Makinesi 3000x</title>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <p>IDK WHY THIS EXISTS</p>
+        </header>
+
+        <main>
+            <div id="wrapper_map">
+                <img src="/res/harita.png" alt="harita" class="harita" \>
+                <ul style="list-style-type: none;">
+                    <li><div class="station" id="s0"></div></li>
+                    <li><div class="station" id="s1"></div></li>
+                    <li><div class="station" id="s2"></div></li>
+                    <li><div class="station" id="s3"></div></li>
+                    <li><div class="station" id="s4"></div></li>
+                    <li><div class="station" id="s5"></div></li>
+                    <li><div class="station" id="s6"></div></li>
+                    <li><div class="station" id="s7"></div></li>
+                    <li><div class="station" id="s8"></div></li>
+                </ul>
+            </div>
+        </main>
+
+        <div id="wrapper_select">
+            <div class="ch_text" id="from">From: </div>
+            <div class="ch_text" id="to">To: </div>
+            <div class="ch_text" id="eta">ETA: </div>
+            <div class="ch_text" id="cur_selected" style="margin-top: 10px;">Selected: </div>
+
+            <div id="wrapper_buttons">
+                <button id="set_from">Set Start</button>
+                &nbsp;
+                <button id="set_to">Set End</button>
+            </div>
+        </div>
+
+        <script type="module" src="/src/app.js"></script>
+
+    </body>
+</html>
