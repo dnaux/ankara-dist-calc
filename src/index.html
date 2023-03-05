@@ -42,21 +42,12 @@
 
             <div id="wrapper_buttons">
                 <button id="set_from">Set Start</button>
+                &nbsp;
                 <button id="set_to">Set End</button>
             </div>
         </div>
 
-        <script>
-            var stations = document.getElementsByClassName('station');
-
-            for(let i = 0; i < stations.length; i++) {
-                stations[i].addEventListener('click', alertcall.bind(null, i));
-            }
-
-            function alertcall(x) {
-                window.alert(x);
-            }
-        </script>
+        <script src="app.js"></script>
 
     </body>
 </html>
