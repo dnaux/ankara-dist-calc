@@ -14,12 +14,12 @@
     <body>
 
         <header>
-            <p>IDK WHY THIS EXISTS</p>
+            IDK WHY THIS EXISTS
         </header>
 
         <main>
-            <div id="wrapper_map">
-                <img src="../res/harita.png" alt="harita" class="harita" \>
+            <div id="wrapper">
+                <img src="../res/harita.png" alt="harita" class="metro_harita" \>
                 <ul style="list-style-type: none;">
                     <li><div class="station" id="s0"></div></li>
                     <li><div class="station" id="s1"></div></li>
@@ -33,18 +33,6 @@
                 </ul>
             </div>
         </main>
-
-        <div id="wrapper_select">
-            <div class="ch_text" id="from">From: </div>
-            <div class="ch_text" id="to">To: </div>
-            <div class="ch_text" id="eta">ETA: </div>
-            <div class="ch_text" id="cur_selected" style="margin-top: 10px;">Selected: </div>
-
-            <div id="wrapper_buttons">
-                <button id="set_from">Set Start</button>
-                <button id="set_to">Set End</button>
-            </div>
-        </div>
 
         <script>
             var stations = document.getElementsByClassName('station');
