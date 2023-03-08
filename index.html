@@ -20,19 +20,18 @@
         <main>
             <div id="wrapper_map">
                 <img src="/res/harita.png" alt="harita" class="harita" \>
-                <ul style="list-style-type: none;">
-                    <li><div class="station" id="s0"></div></li>
-                    <li><div class="station" id="s1"></div></li>
-                    <li><div class="station" id="s2"></div></li>
-                    <li><div class="station" id="s3"></div></li>
-                    <li><div class="station" id="s4"></div></li>
-                    <li><div class="station" id="s5"></div></li>
-                    <li><div class="station" id="s6"></div></li>
-                    <li><div class="station" id="s7"></div></li>
-                    <li><div class="station" id="s8"></div></li>
+                <ul id="station_ul" style="list-style-type: none;">
                 </ul>
             </div>
         </main>
+
+        <script>
+            let station_list = document.getElementById('station_ul');
+            for(let i = 0; i <= 53; i++) {
+                console.log(i);
+                station_list.innerHTML += '<li><div class="station" id="s' + i + '"></div></li>';
+            }
+        </script>
 
         <div id="wrapper_select">
             <div class="ch_text" id="from">From: </div>
