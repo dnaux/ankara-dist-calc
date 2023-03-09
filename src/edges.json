@@ -202,5 +202,8 @@
       { "node": 51, "val": 6 }
     ],
     [{ "node": 52, "val": 2 }]
+  ],
+  "stations": [
+    "OSB-Torekent","GOP","Fatih","Harikalar Diyari","Devlet Mahallesi","Eryaman 5","Eryaman 1-2","Istanbul Yolu","Botanik","Mesa","Bati Merkez","Batikent","OSTİM","Macunkoy","Hastane","Demetevler","Yenimahalle","Yunus Emre","TRT Seyir","Sentepe","Ivedik","Akkopru","AKM","Aski","Diskapi","Meteoroloji","Belediye","Mecidiye","Kuyubasi","Dutluk","Sehitler","Ulus","Sihhiye","Kizilay","Kolej","Kurtulus","Dikimevi","Demirtepe","Maltepe","Anadolu-Anitkabir","Besevler","Bahcelievler","Emek","Asti","Necatibey","Milli Kutuphane","Sogutozu","MTA","ODTU","Bilkent","Tarim Bakanligi - Danistay","Beytepe","Cayyolu","Koru"
   ]
 }
